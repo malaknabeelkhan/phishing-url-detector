@@ -1,0 +1,88 @@
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the form */
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input field */
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Button */
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Result section */
+#result-section {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e9f7ef;
+    font-weight: bold;
+    color: #2e7d32;
+    display: none;
+}
+
+/* Loading section */
+#loading-section {
+    display: none;
+    margin-top: 25px;
+    font-size: 18px;
+    color: #007bff;
+}
+
+/* Error section */
+#error-section {
+    display: none;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f8d7da;
+    font-weight: bold;
+    color: #721c24;
+}
+
+/* Message box styles for errors and success */
+#error-message, #prediction {
+    font-size: 16px;
+}

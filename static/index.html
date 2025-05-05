@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>URL Detection System</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>URL Detection System</h1>
+            <p>Check if a URL is phishing or legitimate.</p>
+        </header>
+
+        <!-- Wrap input and button inside a form with ID urlForm -->
+        <section id="input-section">
+            <form id="urlForm">
+                <label for="urlInput">Enter URL:</label>
+                <input type="text" id="urlInput" placeholder="Enter a URL here..." />
+                <button type="submit" id="submitButton">Check URL</button>
+            </form>
+        </section>
+
+        <!-- Update the result section ID to match the one used in JS -->
+        <section id="result-section" style="display:none;">
+            <h2>Prediction Result:</h2>
+            <div id="prediction"></div>
+            <div id="phishing-probability"></div>
+        </section>
+
+        <section id="loading-section" style="display:none;">
+            <p>Loading...</p>
+        </section>
+
+        <section id="error-section" style="display:none;">
+            <p id="error-message"></p>
+        </section>
+    </div>
+
+    <script src="/static/script.js" defer></script>
+</body>
+
+</html>
