@@ -21,7 +21,7 @@ How to Run the Project
 Follow these steps to set up and run the Phishing URL Detection System locally:
 
 1. Clone the Repository
-git clone https://github.com/yourusername/phishing-url-detection-system.git
+git clone https://github.com/malaknabeelkhan/phishing-url-detector.git
 cd phishing-url-detection-system
 
 2. Install Dependencies
@@ -44,7 +44,9 @@ You can access the interactive API documentation at:
 http://127.0.0.1:8000/docs
 
 4. Launch the Frontend
+You can access the interface by visiting:
+http://127.0.0.1:8000/
 
-You can access the interface by clicking at the link below
-http://127.0.0.1:8000/. (When you run uvicorn "app.main:app --reload" you will get that link)
-
+This link will appear in your terminal when you run the command:
+uvicorn app.main:app --reload
+From there, simply enter a URL in the form to check whether it's Legitimate or Phishing — powered by your trained machine learning model.
