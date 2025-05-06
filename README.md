@@ -50,3 +50,8 @@ http://127.0.0.1:8000/
 This link will appear in your terminal when you run the command:
 uvicorn app.main:app --reload
 From there, simply enter a URL in the form to check whether it's Legitimate or Phishing — powered by your trained machine learning model.
+
+
+![5](https://github.com/user-attachments/assets/94fc9825-c5b1-4193-bf7d-a01f2e5bc714)
+![3](https://github.com/user-attachments/assets/77dedc6e-1833-4309-b27b-bf327345d5c9)
+![4](https://github.com/user-attachments/assets/c7dcd838-6e18-48cb-8d5e-6539f0090b69)
